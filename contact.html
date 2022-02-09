@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="transition.css">
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <script defer src="contact.js"></script>
+    <title>Contact Us</title>
+</head>
+
+<body class="fire">
+    <h1 class="header">Map</h1>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1600.7863103161394!2d78.51898211656336!3d17.395802641367784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99a7ed06e1fb%3A0xb574e5da1eb20f71!2sRed%20Building!5e0!3m2!1sen!2sus!4v1644157592081!5m2!1sen!2sus"
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
+    <div class="container">
+        <div class="container">
+            <span class="big-circle"></span>
+            <img src="images/shape.png" class="square" alt="" />
+            <div class="form">
+                <div class="contact-info">
+                    <h3 class="title">Let's get in touch</h3>
+                    <p class="text">
+                        You Can Leave Your Quaries <br> I Will Contact You Soon
+                    </p>
+                    <div class="info" data-aos="zoom-in-right">
+                        <div class="information">
+                            <img src="images/location.png" class="icon" alt="" />
+                            <p>Kachiguda Railway Station,<br>Hyderabad Talangana.</p>
+                        </div>
+                        <div class="information">
+                            <img src="images/email.png" class="icon" alt="" />
+                            <p>bilalmirza@gmail.com</p>
+                        </div>
+                        <div class="information">
+                            <img src="images/phone.png" class="icon" alt="" />
+                            <p>+91 7286850516</p>
+                        </div>
+                    </div>
+                    <div class="social-media" data-aos="zoom-out-up">
+                        <p>Connect with us :</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://twitter.com">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://instagram.com">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://linkedin.com">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <span class="circle one"></span>
+                    <span class="circle two"></span>
+                    <form action="add your api here" method="POST">
+                        <!-- <form action="index.html" autocomplete="off"> -->
+                        <h3 class="title">Contact us</h3>
+                        <div class="input-container">
+                            <input type="text" name="name" class="input" />
+                            <label for="">Username</label>
+                            <span>Username</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="email" name="email" class="input" />
+                            <label for="">Email</label>
+                            <span>Email</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="tel" name="phone" class="input" />
+                            <label for="">Phone</label>
+                            <span>phone</span>
+                        </div>
+                        <div class="input-container textarea">
+                            <textarea name="message" class="input"></textarea>
+                            <label for="">Query</label>
+                            <span>Query</span>
+                        </div>
+                        <input type="submit" value="Send" class="btn" />
+                    </form>
+                </div>
+            </div>
+            </form>
+        </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init(
+                {
+                    offset: 350,
+                    duration: 1000,
+                    once: false,
+                }
+            );
+        </script>
+
+</body>
+
+</html>
